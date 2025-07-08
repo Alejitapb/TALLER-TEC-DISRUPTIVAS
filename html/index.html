@@ -1,33 +1,515 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="../css/style.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="../site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnologías Emergentes y Disruptivas</title>
+  <link rel="javascript file" href="../javascript/js.js">
+  <link href="../css/style.css" rel="stylesheet">
 </head>
-
 <body>
+<header>
+  <nav>
+    <div class="nav-container">
+      <h1><i class="fas fa-rocket"></i> TechEmerge</h1>
+      <ul>
+        <li><a href="#investigacion">Investigación</a></li>
+        <li><a href="#taller">Taller</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+<main>
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Tecnologías Emergentes y Disruptivas</h2>
+      <p>Explorando el futuro de la tecnología y su impacto en nuestra sociedad</p>
+      <button class="cta-button" onclick="scrollToSection('investigacion')">
+        <i class="fas fa-arrow-down"></i> Comenzar Exploración
+      </button>
+    </div>
+    <div class="hero-visual">
+      <div class="tech-icons">
+        <i class="fas fa-robot"></i>
+        <i class="fas fa-brain"></i>
+        <i class="fas fa-drone"></i>
+        <i class="fas fa-cube"></i>
+        <i class="fas fa-link"></i>
+      </div>
+    </div>
+  </section>
 
+  <section id="investigacion" class="research-section">
+    <div class="container">
+      <h2><i class="fas fa-search"></i> Sección 1: Investigación de Tecnologías Emergentes</h2>
+      <div class="tech-grid">
+        <div class="tech-card" data-tech="iot">
+          <div class="tech-icon">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <h3>Internet de las Cosas (IoT)</h3>
+          <p>El crecimiento exponencial de los aparatos inteligentes está transformando nuestro entorno cotidiano, conectando dispositivos desde hogares hasta ciudades inteligentes.</p>
+          <div class="tech-details">
+            <h4>Características principales:</h4>
+            <ul>
+              <li>Conectividad ubicua entre dispositivos</li>
+              <li>Recolección masiva de datos en tiempo real</li>
+              <li>Automatización inteligente de procesos</li>
+              <li>Interoperabilidad entre diferentes sistemas</li>
+            </ul>
+            <div class="resources">
+              <a href="https://www.ieee.org/iot/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> IEEE IoT
+              </a>
+              <a href="https://www.iotforall.com/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> IoT For All
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card" data-tech="ai">
+          <div class="tech-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>Inteligencia Artificial</h3>
+          <p>Los softbots y el aprendizaje automático están revolucionando la forma en que las máquinas procesan información y toman decisiones.</p>
+          <div class="tech-details">
+            <h4>Características principales:</h4>
+            <ul>
+              <li>Aprendizaje automático y profundo</li>
+              <li>Procesamiento de lenguaje natural</li>
+              <li>Reconocimiento de patrones complejos</li>
+              <li>Toma de decisiones autónoma</li>
+            </ul>
+            <div class="resources">
+              <a href="https://www.tensorflow.org/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> TensorFlow
+              </a>
+              <a href="https://openai.com/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> OpenAI
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card" data-tech="crowdsourcing">
+          <div class="tech-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Crowdsourcing</h3>
+          <p>El poder de muchos: aprovechando la inteligencia colectiva para resolver problemas complejos y generar innovación.</p>
+          <div class="tech-details">
+            <h4>Características principales:</h4>
+            <ul>
+              <li>Participación masiva y distribuida</li>
+              <li>Diversidad de perspectivas</li>
+              <li>Escalabilidad de soluciones</li>
+              <li>Democratización del conocimiento</li>
+            </ul>
+            <div class="resources">
+              <a href="https://www.kaggle.com/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Kaggle
+              </a>
+              <a href="https://github.com/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card" data-tech="voice">
+          <div class="tech-icon">
+            <i class="fas fa-microphone"></i>
+          </div>
+          <h3>Voice to Text</h3>
+          <p>El crecimiento de los asistentes virtuales está cambiando la forma en que interactuamos con la tecnología a través de comandos de voz.</p>
+          <div class="tech-details">
+            <h4>Características principales:</h4>
+            <ul>
+              <li>Reconocimiento de voz en tiempo real</li>
+              <li>Procesamiento de lenguaje natural</li>
+              <li>Interfaz conversacional intuitiva</li>
+              <li>Integración multiplataforma</li>
+            </ul>
+            <div class="resources">
+              <a href="https://cloud.google.com/speech-to-text" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Google Speech-to-Text
+              </a>
+              <a href="https://developer.amazon.com/alexa" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Alexa Skills
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card" data-tech="geolocation">
+          <div class="tech-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>Geolocation</h3>
+          <p>Drones, seguridad y control ciudadano: la ubicación precisa como herramienta de monitoreo y gestión territorial.</p>
+          <div class="tech-details">
+            <h4>Características principales:</h4>
+            <ul>
+              <li>Precisión GPS avanzada</li>
+              <li>Mapeo en tiempo real</li>
+              <li>Vigilancia y monitoreo automatizado</li>
+              <li>Análisis geoespacial</li>
+            </ul>
+            <div class="resources">
+              <a href="https://www.mapbox.com/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Mapbox
+              </a>
+              <a href="https://developers.google.com/maps" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Google Maps API
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card" data-tech="3d-printing">
+          <div class="tech-icon">
+            <i class="fas fa-cube"></i>
+          </div>
+          <h3>Impresión 3D</h3>
+          <p>Uno en cada casa: la manufactura aditiva está democratizando la producción y personalizando la fabricación.</p>
+          <div class="tech-details">
+            <h4>Características principales:</h4>
+            <ul>
+              <li>Manufactura aditiva personalizada</li>
+              <li>Prototipado rápido</li>
+              <li>Reducción de desperdicios</li>
+              <li>Producción bajo demanda</li>
+            </ul>
+            <div class="resources">
+              <a href="https://www.thingiverse.com/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Thingiverse
+              </a>
+              <a href="https://www.autodesk.com/products/fusion-360" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Fusion 360
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card" data-tech="blockchain">
+          <div class="tech-icon">
+            <i class="fas fa-link"></i>
+          </div>
+          <h3>Blockchain</h3>
+          <p>Cadena de bloques: una tecnología de registro distribuido que promete transparencia y seguridad en las transacciones digitales.</p>
+          <div class="tech-details">
+            <h4>Características principales:</h4>
+            <ul>
+              <li>Descentralización y transparencia</li>
+              <li>Inmutabilidad de registros</li>
+              <li>Contratos inteligentes</li>
+              <li>Eliminación de intermediarios</li>
+            </ul>
+            <div class="resources">
+              <a href="https://ethereum.org/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Ethereum
+              </a>
+              <a href="https://hyperledger.org/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Hyperledger
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card" data-tech="knowledge-base">
+          <div class="tech-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3>Bases de Conocimiento</h3>
+          <p>Googles privados: sistemas de gestión de conocimiento que organizan y estructuran información específica para organizaciones.</p>
+          <div class="tech-details">
+            <h4>Características principales:</h4>
+            <ul>
+              <li>Organización estructurada del conocimiento</li>
+              <li>Búsqueda semántica avanzada</li>
+              <li>Integración con IA</li>
+              <li>Acceso personalizado a la información</li>
+            </ul>
+            <div class="resources">
+              <a href="https://www.elastic.co/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Elasticsearch
+              </a>
+              <a href="https://www.atlassian.com/software/confluence" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Confluence
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card" data-tech="robotics">
+          <div class="tech-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>Robótica Hardware</h3>
+          <p>Desde exoesqueletos hasta manufactura automatizada: robots que amplían las capacidades humanas y automatizan procesos industriales.</p>
+          <div class="tech-details">
+            <h4>Características principales:</h4>
+            <ul>
+              <li>Automatización industrial avanzada</li>
+              <li>Colaboración humano-robot</li>
+              <li>Precisión y eficiencia</li>
+              <li>Adaptabilidad a entornos dinámicos</li>
+            </ul>
+            <div class="resources">
+              <a href="https://www.ros.org/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> ROS
+              </a>
+              <a href="https://www.bostondynamics.com/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Boston Dynamics
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-card" data-tech="visual-tech">
+          <div class="tech-icon">
+            <i class="fas fa-vr-cardboard"></i>
+          </div>
+          <h3>Tecnologías Visuales</h3>
+          <p>3D, Realidad Virtual, Aumentada y Hologramas: creando experiencias inmersivas que transforman la percepción digital.</p>
+          <div class="tech-details">
+            <h4>Características principales:</h4>
+            <ul>
+              <li>Inmersión total del usuario</li>
+              <li>Interacción natural con contenido digital</li>
+              <li>Visualización tridimensional</li>
+              <li>Aplicaciones en educación y entretenimiento</li>
+            </ul>
+            <div class="resources">
+              <a href="https://www.oculus.com/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Oculus
+              </a>
+              <a href="https://unity.com/" target="_blank" class="resource-link">
+                <i class="fas fa-external-link-alt"></i> Unity
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="taller" class="workshop-section">
+    <div class="container">
+      <h2><i class="fas fa-cogs"></i> Sección 2: Taller - Análisis Profundo</h2>
+      <p class="section-intro">Análisis detallado de las tres tecnologías seleccionadas: <strong>Crowdsourcing</strong>, <strong>Voice to Text</strong> y <strong>Geolocation</strong></p>
+
+      <div class="workshop-grid">
+        <div class="workshop-card">
+          <div class="workshop-header">
+            <i class="fas fa-users"></i>
+            <h3>Crowdsourcing</h3>
+          </div>
+          <div class="workshop-content">
+            <div class="question-block">
+              <h4><i class="fas fa-question-circle"></i> ¿En qué consiste la tecnología?</h4>
+              <p>El crowdsourcing es una metodología que aprovecha la inteligencia colectiva de una gran cantidad de personas para resolver problemas, generar ideas o completar tareas complejas. Utiliza plataformas digitales para distribuir trabajos entre una multitud de participantes voluntarios o remunerados, permitiendo que organizaciones accedan a recursos humanos escalables y diversos conocimientos especializados.</p>
+            </div>
+
+            <div class="question-block">
+              <h4><i class="fas fa-star"></i> ¿Cuáles son las características más importantes?</h4>
+              <ul>
+                <li><strong>Participación masiva:</strong> Involucra a miles de personas simultáneamente</li>
+                <li><strong>Diversidad de perspectivas:</strong> Combina diferentes experiencias y conocimientos</li>
+                <li><strong>Escalabilidad:</strong> Puede manejar proyectos de cualquier tamaño</li>
+                <li><strong>Costo-efectividad:</strong> Reduce costos operativos significativamente</li>
+                <li><strong>Innovación abierta:</strong> Fomenta la creatividad y soluciones disruptivas</li>
+              </ul>
+            </div>
+
+            <div class="question-block">
+              <h4><i class="fas fa-globe"></i> ¿Cómo se puede utilizar en tu medio ambiente?</h4>
+              <p>En el contexto del SENA y el programa ADSO, el crowdsourcing puede implementarse para:</p>
+              <ul>
+                <li><strong>Desarrollo colaborativo:</strong> Crear proyectos de software con aportes de múltiples aprendices</li>
+                <li><strong>Resolución de problemas:</strong> Abordar desafíos técnicos complejos mediante la colaboración</li>
+                <li><strong>Mejora de procesos:</strong> Optimizar metodologías de enseñanza con retroalimentación masiva</li>
+                <li><strong>Innovación educativa:</strong> Desarrollar nuevas herramientas y recursos educativos</li>
+              </ul>
+            </div>
+
+            <div class="question-block">
+              <h4><i class="fas fa-tools"></i> ¿Qué recursos necesitas para desarrollar un proyecto propio?</h4>
+              <ul>
+                <li><strong>Plataforma digital:</strong> GitHub, GitLab, o plataformas especializadas como Topcoder</li>
+                <li><strong>Sistema de gestión:</strong> Herramientas como Jira o Trello para coordinar tareas</li>
+                <li><strong>Comunidad activa:</strong> Base de usuarios dispuestos a participar</li>
+                <li><strong>Infraestructura técnica:</strong> Servidores, bases de datos, APIs</li>
+                <li><strong>Sistemas de incentivos:</strong> Reconocimiento, certificaciones, o recompensas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="workshop-card">
+          <div class="workshop-header">
+            <i class="fas fa-microphone"></i>
+            <h3>Voice to Text</h3>
+          </div>
+          <div class="workshop-content">
+            <div class="question-block">
+              <h4><i class="fas fa-question-circle"></i> ¿En qué consiste la tecnología?</h4>
+              <p>La tecnología Voice to Text convierte el habla humana en texto digital mediante algoritmos de reconocimiento automático de voz (ASR). Utiliza procesamiento de señales digitales, machine learning y redes neuronales para analizar patrones de audio, identificar fonemas, palabras y estructuras gramaticales, transformando la comunicación oral en texto escrito procesable por computadoras.</p>
+            </div>
+
+            <div class="question-block">
+              <h4><i class="fas fa-star"></i> ¿Cuáles son las características más importantes?</h4>
+              <ul>
+                <li><strong>Reconocimiento en tiempo real:</strong> Transcripción inmediata del habla</li>
+                <li><strong>Adaptabilidad lingüística:</strong> Soporte para múltiples idiomas y dialectos</li>
+                <li><strong>Mejora continua:</strong> Aprendizaje automático que perfecciona la precisión</li>
+                <li><strong>Integración multiplataforma:</strong> Funciona en dispositivos móviles, web y escritorio</li>
+                <li><strong>Procesamiento de contexto:</strong> Comprende el significado según el entorno</li>
+              </ul>
+            </div>
+
+            <div class="question-block">
+              <h4><i class="fas fa-globe"></i> ¿Cómo se puede utilizar en tu medio ambiente?</h4>
+              <p>En el entorno educativo del SENA y desarrollo de software:</p>
+              <ul>
+                <li><strong>Documentación automática:</strong> Transcribir reuniones y clases para crear documentos</li>
+                <li><strong>Accesibilidad:</strong> Facilitar el aprendizaje para personas con discapacidades auditivas</li>
+                <li><strong>Interfaces conversacionales:</strong> Desarrollar aplicaciones con comandos de voz</li>
+                <li><strong>Generación de código:</strong> Dictar código para acelerar el desarrollo</li>
+                <li><strong>Evaluación automática:</strong> Crear sistemas de evaluación oral automatizados</li>
+              </ul>
+            </div>
+
+            <div class="question-block">
+              <h4><i class="fas fa-tools"></i> ¿Qué recursos necesitas para desarrollar un proyecto propio?</h4>
+              <ul>
+                <li><strong>APIs de reconocimiento:</strong> Google Speech-to-Text, Amazon Transcribe, Azure Speech</li>
+                <li><strong>Herramientas de desarrollo:</strong> SDKs para Python, JavaScript, o Java</li>
+                <li><strong>Hardware de audio:</strong> Micrófonos de calidad, sistemas de grabación</li>
+                <li><strong>Procesamiento de audio:</strong> Librerías como FFmpeg, SoX</li>
+                <li><strong>Modelos de ML:</strong> TensorFlow, PyTorch para entrenamiento personalizado</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="workshop-card">
+          <div class="workshop-header">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Geolocation</h3>
+          </div>
+          <div class="workshop-content">
+            <div class="question-block">
+              <h4><i class="fas fa-question-circle"></i> ¿En qué consiste la tecnología?</h4>
+              <p>La geolocalización es una tecnología que determina la ubicación geográfica exacta de dispositivos, objetos o personas utilizando sistemas como GPS, WiFi, Bluetooth, torres de telefonía móvil y sensores. Combina datos de múltiples fuentes para proporcionar coordenadas precisas, permitiendo servicios basados en ubicación, mapeo en tiempo real y análisis geoespacial para diversas aplicaciones.</p>
+            </div>
+
+            <div class="question-block">
+              <h4><i class="fas fa-star"></i> ¿Cuáles son las características más importantes?</h4>
+              <ul>
+                <li><strong>Precisión avanzada:</strong> Localización exacta con margen de error mínimo</li>
+                <li><strong>Tiempo real:</strong> Actualización continua de posiciones</li>
+                <li><strong>Múltiples fuentes:</strong> GPS, WiFi, Bluetooth, torres celulares</li>
+                <li><strong>Integración IoT:</strong> Conectividad con dispositivos inteligentes</li>
+                <li><strong>Análisis geoespacial:</strong> Procesamiento de datos de ubicación masivos</li>
+              </ul>
+            </div>
+
+            <div class="question-block">
+              <h4><i class="fas fa-globe"></i> ¿Cómo se puede utilizar en tu medio ambiente?</h4>
+              <p>En el contexto del SENA y desarrollo de aplicaciones:</p>
+              <ul>
+                <li><strong>Gestión de recursos:</strong> Localizar equipos y herramientas en talleres</li>
+                <li><strong>Seguridad estudiantil:</strong> Sistemas de monitoreo y control de acceso</li>
+                <li><strong>Aplicaciones móviles:</strong> Desarrollar apps con servicios basados en ubicación</li>
+                <li><strong>Logística educativa:</strong> Optimizar rutas de transporte estudiantil</li>
+                <li><strong>Análisis de uso:</strong> Estudiar patrones de utilización de espacios</li>
+              </ul>
+            </div>
+
+            <div class="question-block">
+              <h4><i class="fas fa-tools"></i> ¿Qué recursos necesitas para desarrollar un proyecto propio?</h4>
+              <ul>
+                <li><strong>APIs de mapas:</strong> Google Maps, Mapbox, OpenStreetMap</li>
+                <li><strong>Dispositivos GPS:</strong> Módulos GPS, smartphones, tablets</li>
+                <li><strong>Herramientas de desarrollo:</strong> Android Studio, Xcode, React Native</li>
+                <li><strong>Bases de datos geoespaciales:</strong> PostGIS, MongoDB con índices geoespaciales</li>
+                <li><strong>Servicios en la nube:</strong> AWS Location Service, Google Cloud Maps</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="recursos" class="resources-section">
+    <div class="container">
+      <h2><i class="fas fa-link"></i> Recursos Adicionales</h2>
+      <div class="resources-grid">
+        <div class="resource-category">
+          <h3><i class="fas fa-book"></i> Documentación Técnica</h3>
+          <ul>
+            <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+            <li><a href="https://docs.python.org/" target="_blank">Python Documentation</a></li>
+            <li><a href="https://reactjs.org/docs/" target="_blank">React Documentation</a></li>
+          </ul>
+        </div>
+        <div class="resource-category">
+          <h3><i class="fas fa-graduation-cap"></i> Cursos y Tutoriales</h3>
+          <ul>
+            <li><a href="https://www.coursera.org/" target="_blank">Coursera</a></li>
+            <li><a href="https://www.edx.org/" target="_blank">edX</a></li>
+            <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+          </ul>
+        </div>
+        <div class="resource-category">
+          <h3><i class="fas fa-users"></i> Comunidades</h3>
+          <ul>
+            <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
+            <li><a href="https://dev.to/" target="_blank">Dev.to</a></li>
+            <li><a href="https://www.reddit.com/r/programming/" target="_blank">Reddit Programming</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-info">
+      <h3>Información del Aprendiz</h3>
+      <p><strong>Nombre:</strong> Alejandra Pabón Barbosa</p>
+      <p><strong>Programa:</strong> ADSO (Análisis y Desarrollo de Sistemas de Información)</p>
+      <p><strong>Ficha:</strong> 2885494</p>
+      <p><strong>Año:</strong> 2025</p>
+    </div>
+    <div class="footer-mission">
+      <h3>Misión SENA</h3>
+      <p>Como aprendiz del SENA, me comprometo a utilizar las tecnologías emergentes como herramientas de transformación e innovación, contribuyendo al desarrollo tecnológico del país.</p>
+    </div>
+    <div class="footer-tech">
+      <h3>Tecnologías Disruptivas</h3>
+      <p>Explorando el futuro de la tecnología y su impacto en la sociedad moderna.</p>
+      <div class="tech-icons-footer">
+        <i class="fas fa-robot"></i>
+        <i class="fas fa-brain"></i>
+        <i class="fas fa-users"></i>
+        <i class="fas fa-microphone"></i>
+        <i class="fas fa-map-marker-alt"></i>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Alejandra Pabón Barbosa - SENA ADSO - Ficha 2885494</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
-
 </html>
