@@ -32,10 +32,23 @@
 ## 🎯 Estructura del Proyecto
 
 ```
-TechEmerge/
-├── 📄 index.html          # Estructura principal HTML
-├── 🎨 styles.css          # Estilos CSS modernos
-├── ⚡ script.js           # Funcionalidad JavaScript
+EVIDENCIA TALLER TEC DISRUPTIVA/
+├── 📁 .idea/              # Configuración del IDE
+├── 📁 css/
+│   └── 🎨 style.css       # Estilos CSS modernos
+├── 📁 html/
+│   └── 📄 index.html      # Estructura principal HTML
+├── 📁 javascript/
+│   └── ⚡ js.js           # Funcionalidad JavaScript
+├── 📄 404.html            # Página de error personalizada
+├── 📄 EVIDENCIA TALLER TEC DISRUPTIVA.iml
+├── 📄 LICENSE.txt         # Licencia del proyecto
+├── 📄 package.json        # Configuración del proyecto
+├── 📄 robots.txt          # Configuración para bots
+├── 📄 site.webmanifest    # Manifest de la aplicación web
+├── 📄 webpack.common.js   # Configuración común de Webpack
+├── 📄 webpack.config.dev.js   # Configuración de desarrollo
+├── 📄 webpack.config.prod.js  # Configuración de producción
 └── 📖 README.md           # Documentación del proyecto
 ```
 
@@ -105,7 +118,7 @@ TechEmerge/
 ## 📧 Contacto
 
 **Alejandra Pabón Barbosa**
-- 📧 Email: [Contacto a través del SENA]
+- 📧 Email: pabonalejandra8qgmail.com
 - 🏫 Institución: SENA - Ficha 2885494
 - 💼 Programa: ADSO 2025
 
